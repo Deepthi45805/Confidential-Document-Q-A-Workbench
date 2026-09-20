@@ -1,0 +1,22 @@
+# 🛡️ DOCSHIELD AI — Private Multi-Agent Document Intelligence Workbench
+
+> **Capabl Agentic AI Saksham National Level Agentic AI Hackathon**  
+> **Problem Statement B1:** Confidential Document Q&A Workbench
+
+---
+
+## 1. Project Overview
+**DocShield AI** is an enterprise-grade multi-agent document intelligence platform built to operate **100% locally**. It eliminates sensitive corporate data exposure by keeping documents, embedding generation, vector search, and LLM inference entirely on-premise.
+
+## 2. Problem Statement
+Organizations routinely deal with sensitive internal policies, legal contracts, and financial reports. Standard cloud-based AI solutions pose severe data privacy, compliance, and IP leakage risks. **DocShield AI** solves this by establishing a secure, air-gapped agentic workbench over local files.
+
+## 3. Key Features
+- 🔐 **Privacy First**: Local AI inference powered by Ollama (`llama3:8b`).
+- 🧠 **Agentic Orchestration**: Dynamic request routing via intelligent Orchestrator.
+- 💬 **Grounded RAG Q&A**: Hallucination-resistant answers with precise page-level citations.
+- 📄 **Executive Summarizer**: Structured breakdowns (Key Points, Dates, Terms, Action Items).
+- 🔄 **Document Comparator**: Clause-by-clause differential comparison across file versions.
+- 📋 **Local Audit Trail**: SQLite compliance logging tracking timestamps, invoked agents, and accessed files.
+
+## 4. System Architecture
