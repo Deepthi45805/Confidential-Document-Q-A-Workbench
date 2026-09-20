@@ -20,6 +20,25 @@ Organizations routinely deal with sensitive internal policies, legal contracts, 
 - 📋 **Local Audit Trail**: SQLite compliance logging tracking timestamps, invoked agents, and accessed files.
 
 ## 4. System Architecture
+USER
+↓
+STREAMLIT UI
+↓
+ORCHESTRATOR AGENT
+↓
+┌───────────────────────────────┐
+│                               │
+↓               ↓               ↓
+Q&A AGENT    SUMMARIZER     COMPARATOR
+│               │               │
+↓               ↓               ↓
+RETRIEVAL     DOCUMENT        DOCUMENT
+RAG           ANALYSIS        COMPARISON
+│               │               │
+└───────────────┴───────────────┘
+↓
+FINAL RESPONSE + CITATIONS + LOCAL AUDIT LOG
+
 ## 5. Technology Stack
 - **Frontend**: Streamlit
 - **Agent Orchestration**: LangGraph
