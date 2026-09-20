@@ -20,3 +20,26 @@ Organizations routinely deal with sensitive internal policies, legal contracts, 
 - 📋 **Local Audit Trail**: SQLite compliance logging tracking timestamps, invoked agents, and accessed files.
 
 ## 4. System Architecture
+## 5. Technology Stack
+- **Frontend**: Streamlit
+- **Agent Orchestration**: LangGraph
+- **LLM**: Ollama (`llama3:8b`)
+- **Vector DB**: ChromaDB
+- **Embeddings**: `sentence-transformers` (`all-MiniLM-L6-v2`)
+- **Document Parsers**: PyMuPDF (`fitz`), `python-docx`
+- **Audit Storage**: SQLite
+- **Language**: Python 3.11+
+
+## 6. Installation & Setup
+
+```bash
+# Clone the repository
+git clone [https://github.com/your-repo/docshield-ai.git](https://github.com/your-repo/docshield-ai.git)
+cd docshield-ai
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
